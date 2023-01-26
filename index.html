@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- - primary meta tags-->
+  <title>Okechukwu-Portfolio</title>
+  <meta name="title" content="Okechukwu - I'm a Front End Web & Mobile Developer.">
+  <meta name="description" content="This is a personal portfolio">
+
+  <!--- favicon-->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- Font Awsome Kit -->
+
+  <script src="https://kit.fontawesome.com/bb1892d46f.js" crossorigin="anonymous"></script>
+
+  <!--- google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!--- custom css link-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--- preload images-->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!--- #HEADER-->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="/assets/images/logo2.png" alt="portfolio logo" width="100" height="100">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#ABOUT" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#Projects" class="navbar-link">Projects</a>
+          </li>
+
+
+          <li>
+            <a href="#Contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:@email.com" class="contact-link">oegeruoh@email.com</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.linkedin.com/in/okechukwuegeruoh/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/Chukwu12" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+      <!-- Hero -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/portrait_Fotor.jpg" width="560" height="540" alt="Okechukwu" class="w-100"
+              data-reveal="top">
+          </figure>
+
+          <div class="hero-content">
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              I'm a Front End Web & Developer & Freelancer.
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              I'm a college graduate at Medgar Ever College with a degree in
+              Computer Information System. I recently comepleted
+              a Front end bootcamp, in Front End Web development & Mobile Development at Nucamp. To futher
+              my skills as a Web Developer, I have
+              experience with
+              front End Web & Mobile design. When am not
+              building projects I tend to practice coding with on Codeacadmy and CodePen. You can check
+              out some of my projects and I am looking forward to connecting with you.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="#Projects" class="btn btn-primary">See My Works</a>
+              <a href="#Contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!--- #ABOUT-->
+
+      <section class="section about" aria-label="about" id="ABOUT">
+        <div class="container">
+          <div class="wrapper">
+            <div data-reveal="left">
+              <h2 class="h2 section-title">What I Do?</h2>
+              <p class="section-text">
+                Duis mollis est commodo luctus nisi erat porttitor ligula, eget lacinia odio sem nec
+                elit. Nullam quis
+                risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent
+                commodo cursus
+                magna, vel scelerisque nisl.
+              </p>
+            </div>
+            <ul class="progress-list" data-reveal="right">
+              <li class="progress-item">
+                <div class="label-wrapper">
+                  <p>Web Design</p>
+                  <span class="span"></span>
+                </div>
+                <div class="progress">
+                  <div class="progress-fill"></div>
+                </div>
+              </li>
+
+              <li class="progress-item">
+                <div class="label-wrapper">
+                  <p>Mobile Design</p>
+                  <span class="span"></span>
+                </div>
+                <div class="progress">
+                  <div class="progress-fill-mobile"></div>
+                </div>
+              </li>
+              <li class="progress-item">
+                <div class="label-wrapper">
+                  <p>Development</p>
+                  <span class="span"></span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill-development"></div>
+                </div>
+
+              </li>
+
+
+            </ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+
+                  <i class="fa-brands fa-node fa-3x fa-bounce"></i>
+                  <i class="fa-brands fa-github fa-3x fa-bounce"></i>
+                  <i class="fa-brands fa-git fa-3x fa-bounce"></i>
+                  <i class="fa-brands fa-sass fa-3x fa-bounce"></i>
+
+
+
+
+                </div>
+
+                <h3 class="h4 card-title">Front End Tools</h3>
+
+
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+
+                  <i class="fa-brands fa-html5 fa-3x fa-bounce"></i>
+                  <i class="fa-brands fa-css3-alt fa-3x fa-bounce"></i>
+                  <i class="fa-brands fa-js fa-3x fa-bounce"></i>
+                  <i class="fa-brands fa-react fa-3x fa-bounce "></i>
+                  <i class="fa-brands fa-python fa-3x fa-bounce"></i>
+                </div>
+
+                <h3 class="h4 card-title">Front End Languages</h3>
+
+
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+
+                  <i class="fa-brands fa-wordpress fa-3x fa-bounce"></i>
+                  <i class="fa-brands fa-bootstrap fa-3x fa-bounce"></i>
+                </div>
+
+                <h3 class="h4 card-title">Framework</h3>
+
+
+
+
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--- #PROJECT-->
+
+      <section class="section project" aria-labelledby="project-label" id="Projects">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+              <p class="section-text">
+                Check out some of my projects that i'm working on...
+              </p>
+            </div>
+
+            <a href="#PROJECTS" class="btn btn-secondary">See All Projects</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag2">Web Design</p>
+
+                  <h3 class="h3 card-title">Content Creator Website</h3>
+
+                  <p class="card-text">
+                    This is a Content Creator website that showcase the creator mission, highlight
+                    his pricing packages, as well as provide differnt services.
+                  </p>
+
+                  <a href="https://mansaleafproduction.netlify.app/" class="btn-text" style="color: #674188">
+                    <span class="span">See Project
+                    </span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="https://github.com/Chukwu12/PortfolioWebsite" class="btn-text" style="color: #674188;">
+                    <i class="fab fa-github"></i> Github
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-1.png" width="650" height="370" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-2">
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag">Mobile Design</p>
+
+                  <h3 class="h3 card-title">Nucamp App</h3>
+
+                  <p class="card-text">
+                    This is a mobile app which I created during my course
+                    at Nucamp. Created using React Native || Redux || JS || SASS
+                  </p>
+
+                  <a href="#" class="btn-text">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="https://github.com/Chukwu12/React-NativeApp" class="btn-text">
+                    <i class="fab fa-github"></i> Github
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/project-2.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-3" style="background-color: #F7F5EB">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #7cb798">Web Design</p>
+
+                  <h3 class="h3 card-title">Nucamp Website</h3>
+
+                  <p class="card-text">
+                    This website was a project built using HTML || CSS || JS || SCSS || while using
+                    Boothstrap as the framwork to showcase a responsive website that links different
+                    pages together.
+                  </p>
+
+                  <a href="https://nucampweb.netlify.app/" class="btn-text" style="color: #7cb798">
+                    <span class="span">See Project
+
+                    </span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="https://github.com/Chukwu12/nucampsite" class="btn-text" style="color: #7cb798">
+                    <i class="fab fa-github"></i> Github
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-3.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card project-card-4" style="background-color: #EAE0DA">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Web Design</p>
+
+                  <h3 class="h3 card-title">Sneaker Website</h3>
+
+                  <p class="card-text">
+                    This sneaker website showcase some of my favorite sneakers, with the options to
+                    choose differnt colors, sizes, and view the sneakers from differnt angels.
+                  </p>
+
+                  <a href="https://onicekicks.netlify.app" class="btn-text" style="color: #d16b86">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                  <a href="https://github.com/Chukwu12/gh-Sneakers" class="btn-text" style="color: #d16b86">
+                    <i class="fab fa-github"></i> Github
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-4.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section id="Contact" class="section contact" aria-label="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+
+              <p class="section-text">
+                Feel free to reach
+                out to me from
+                this contact form and I will get back to you shortly.
+              </p>
+
+            </div>
+
+            <form action="" class="contact-form" data-reveal="right">
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field"
+                  aria-label="input-form">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+</body>
+
+</html>
