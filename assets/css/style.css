@@ -438,7 +438,9 @@ body.nav-active {
 .hero .section-text {
   margin-block: 24px 36px;
 }
-
+.h1 hero-title{
+  font-size: 2.8rem;
+}
 .btn-wrapper {
   display: flex;
   flex-wrap: wrap;
