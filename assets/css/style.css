@@ -399,7 +399,7 @@ body.nav-active {
 
 .hero {
   padding-block-start: calc(var(--section-padding) + 50px);
-  background-color: var(--purple);
+  background-color: var(--cadet-blue-crayola_a20);
 }
 
 .hero .container {
@@ -569,12 +569,12 @@ body.nav-active {
 }
 
 .card-tag{
-  color: #3f78e0"
+  color: #674188
 }
 
 .card-tag2
 {
-  color: var(--charcoal);
+  color: #674188;
   text-transform:uppercase;
   font-size: var(--fs-8);
   font-weight: var(--fw-700);
@@ -622,7 +622,7 @@ body.nav-active {
 }
 
 .contact-card {
-  background-color: var(--cream);
+  background-color: var(--cadet-blue-crayola_a20);
   padding: 32px;
   border-radius: var(--radius-8);
   display: grid;
