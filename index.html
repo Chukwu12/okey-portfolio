@@ -492,20 +492,16 @@
 
             </div>
 
-            <form action="" class="contact-form" data-reveal="right">
-
+            <form name="contact" method="POST" data-netlify="true" class="contact-form" data-reveal="right">
+              <input type="hidden" name="form-name" value="contact"> <!-- Required for Netlify forms -->
               <div class="input-wrapper">
-                <input type="text" name="name" placeholder="Name *" required class="input-field"
-                  aria-label="input-form">
-
-                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+                <input type="text" name="name" placeholder="Name *" required class="input-field" aria-label="input-form">
+                <input type="email" name="email" placeholder="Email *" required class="input-field">
               </div>
-
               <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
-
               <button type="submit" class="btn btn-secondary">Send message</button>
-
             </form>
+            
 
           </div>
 
