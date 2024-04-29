@@ -915,7 +915,7 @@ textarea.input-field {
     align-items: flex-end;
   }
 
-  :is(.project-card-1, .project-card-2) .card-content {
+  :is(.project-card-1, .project-card-2, .project-card-5) .card-content {
     width: 33.33%;
   }
 
