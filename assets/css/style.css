@@ -556,7 +556,7 @@ body.nav-active {
 
 .project-card-1,
 .project-card-2,
-:is(.project-card-3, .project-card-4) .card-content {
+:is(.project-card-3, .project-card-4, .project-card-5) .card-content {
   padding: var(--padding);
 }
 
@@ -903,16 +903,17 @@ textarea.input-field {
   }
 
   .project-card-1,
-  .project-card-2 {
+  .project-card-2,
+  .project-card-5 {
     flex-direction: row;
     align-items: flex-end;
   }
 
-  :is(.project-card-1, .project-card-2) .card-content {
+  :is(.project-card-1, .project-card-2, .project-card-5) .card-content {
     width: 33.33%;
   }
 
-  :is(.project-card-1, .project-card-2) .card-banner {
+  :is(.project-card-1, .project-card-2, .project-card-5) .card-banner {
     width: 66.66%;
   }
 
