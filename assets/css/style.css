@@ -556,7 +556,8 @@ body.nav-active {
 
 .project-card-1,
 .project-card-2,
-:is(.project-card-3, .project-card-4, .project-card-5) .card-content {
+.project-card-5,
+:is(.project-card-3, .project-card-4) .card-content {
   padding: var(--padding);
 }
 
