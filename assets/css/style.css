@@ -908,17 +908,17 @@ textarea.input-field {
   }
 
   .project-card-1,
-  .project-card-2,
-  .project-card-5 {
+  .project-card-2
+   {
     flex-direction: row;
     align-items: flex-end;
   }
 
-  :is(.project-card-1, .project-card-2, .project-card-5) .card-content {
+  :is(.project-card-1, .project-card-2,) .card-content {
     width: 33.33%;
   }
 
-  :is(.project-card-1, .project-card-2, .project-card-5) .card-banner {
+  :is(.project-card-1, .project-card-2,) .card-banner {
     width: 66.66%;
   }
 
@@ -929,6 +929,10 @@ textarea.input-field {
   .project-card-2 .card-content {
     order: 1;
   }
+
+.project-card .project-card-6 .img{
+  padding: 100px;
+}
 
   /**
    * CONTACT
