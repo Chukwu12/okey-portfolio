@@ -507,6 +507,10 @@ body.nav-active {
   gap: 15px;
 }
 
+.card-icon img {
+  height: 40px;
+}
+
 .about-card .card-title {
   margin-block: 16px 10px;
 }
