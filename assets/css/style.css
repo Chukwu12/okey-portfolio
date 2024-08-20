@@ -572,6 +572,12 @@ body.nav-active {
   gap: 0;
 }
 
+ .project-card-3 .card-banner img {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
 .card-tag{
   color: #674188
 }
