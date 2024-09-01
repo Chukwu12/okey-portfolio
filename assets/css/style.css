@@ -568,7 +568,7 @@ body.nav-active {
   padding-block-end: 0;
 }
 
-.project :is(.project-card-3, .project-card-4, project-card-5, .project-card-6) {
+.project :is(.project-card-3, .project-card-4, .project-card-5, .project-card-6) {
   gap: 0;
 }
 
