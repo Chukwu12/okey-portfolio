@@ -604,7 +604,6 @@ body.nav-active {
   box-shadow: var(--shadow-sm);
 }
 
-.project-card-3,
 .project-card-4 {
   background: linear-gradient(145deg, #fff7f4 0%, #fff0eb 100%) !important;
 }
@@ -880,6 +879,7 @@ textarea.input-field {
 
   .project-card-1,
   .project-card-2,
+  .project-card-3,
   .project-card-7 {
     flex-direction: row;
     align-items: stretch;
@@ -887,12 +887,14 @@ textarea.input-field {
 
   .project-card-1 .card-content,
   .project-card-2 .card-content,
+  .project-card-3 .card-content,
   .project-card-7 .card-content {
     width: 42%;
   }
 
   .project-card-1 .card-banner,
   .project-card-2 .card-banner,
+  .project-card-3 .card-banner,
   .project-card-7 .card-banner {
     width: 58%;
   }
