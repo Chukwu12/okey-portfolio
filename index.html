@@ -727,7 +727,7 @@
             </div>
 
             <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="thank-you.html"
-              class="contact-form" data-reveal="right">
+              class="contact-form" data-reveal="right" id="contact-form">
               <input type="hidden" name="form-name" value="contact"> <!-- Required for Netlify forms -->
               <p hidden>
                 <label>
@@ -741,6 +741,7 @@
               </div>
               <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
               <button type="submit" class="btn btn-secondary">Send message</button>
+              <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
             </form>
 
 
